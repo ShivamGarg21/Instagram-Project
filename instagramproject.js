@@ -1,7 +1,7 @@
 const puppy = require("puppeteer");
 const fs = require("fs");   
-const username = "sarcastic._.god";
-const pass = "21799shivam";
+const username = "your username";
+const pass = "your password";
 let finalfollowers = [];
 let finalfollowing = [];
 let unfollowers = [];
