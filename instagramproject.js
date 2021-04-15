@@ -47,7 +47,7 @@ async function myfollowersfollowing(followernumber,followingnumber){
     await tab.waitForSelector(".jSC57._6xe7A",{visible:true});
     await tab.click(".jSC57._6xe7A");
     for(let i=0;i<(3*followernumber)/2;i++){
-        if(i==8){
+        if(i==7 || i==10){
             await tab.waitForSelector(".jSC57._6xe7A",{visible:true});
             await tab.click(".jSC57._6xe7A");
         }
